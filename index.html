@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" id="recipeInput" placeholder="Enter food item...">
+    <button onclick="fetchMeals()">Search</button>
+  </div>
+
+  <!-- Recipe Details -->
+  <div class="details" id="details">
+    <p>Search for a recipe above...</p>
+  </div>
+
+  <!-- Recipe counter -->
+  <div class="counter" id="counter"></div>
+
+  <!-- Navigation buttons -->
+  <div class="nav-buttons">
+    <button id="prevBtn" onclick="prevRecipe()">← Previous</button>
+    <button id="nextBtn" onclick="nextRecipe()">Next →</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
